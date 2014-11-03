@@ -1,3 +1,75 @@
 body {
-  background-color: pink;
+  background-image: url("crystal.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Calligraffitti', cursive;
 }
+
+.navbar {
+  text-align: right;
+  color: white;
+}
+
+.navbar:hover{
+  color: black;
+}
+
+.head {
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  font-size: 130%;
+}
+
+.quizbox {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+}
+
+.question {
+  display: none;
+}
+
+.noquiz {
+  display: none;
+  color: white;
+  text-align: center;
+}
+
+.noquiz a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.noquiz a:hover {
+  color: #FF00FF;
+}
+
+.unicorn {
+  display: none;
+  text-align: center;
+  color: white;
+}
+
+#gettingthere, #shining {
+  display: none;
+}
+
+#yes:hover, #no:hover, #maybe:hover, #restart:hover {
+  color: black;
+  text-decoration: none;
+  }
+
+a:link {
+  color: #FF00FF;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+a:visited {
+  color: white;
+}
+
